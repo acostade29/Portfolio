@@ -115,33 +115,85 @@ const Resume = () => {
             <Box component="header" className={classes.mainContainer} >
                 <Typography variant="h4" align="center" className={classes.heading}>
                     Working Experience
+
+
+
+
+
+
                 </Typography>
                 <Box component="div" className={classes.timeline}>
                     <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2020</Typography>
                     <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" aligh="center"  className={classes.subHeading}>
-                        Web Design
+                        Full Stack Software Engineering (Student)
                     </Typography>
                     <Typography variant="body1" aligh="center" style={{color: "white"}}>
-                        Company name where worked
+                        General Assembly Austin,TX
                     </Typography>
                     <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, fugit libero. Voluptatibus alias nobis, vel voluptatum in voluptate illum quibusdam!
+                    General Assembly’s Software Engineering Immersive (SEI) is a 12-week long training program dedicated to give students a deep dive into the world of software engineering, focusing on web development tools and best practices. Portfolios are created with the following
+                    technologies: Git/Github, HTML, CSS, JavaScript, Node, MongoDB, SQL, Python. 
                     </Typography>
                     </Box>
 
 
 
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2019</Typography>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2018-2020</Typography>
                     <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" aligh="center"  className={classes.subHeading}>
-                        html & Css
+                        Accounting Clerk 
                     </Typography>
                     <Typography variant="body1" aligh="center" style={{color: "white"}}>
-                        Company name where worked
+                        Eaton Fine Art Austin, TX
                     </Typography>
                     <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
-                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, fugit libero. Voluptatibus alias nobis, vel voluptatum in voluptate illum quibusdam!
+                    • Responsible for providing accounting and administrative support for accounts payable, accounts receivable, vendor processing. 
+                    <br/>
+                    • Process AP invoices on a weekly basis. Process AR billings per project terms. Post deposits and assist with various accounts receivable functions. Maintaining accounting records and files. Maintaining client files. Maintain client and vendor databases 
+                    <br/>
+                    • Shipping duties included handling of inbound and outbound shipments. Ship documents such as bill of ladings for projects. Receiving and distributing incoming packages. Prepare outgoing packages for shipping to vendor and/or client. 
+
+                    </Typography>
+                    </Box>
+
+
+
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2018</Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                    <Typography variant="h5" aligh="center"  className={classes.subHeading}>
+                         Accounting Clerk 
+                    </Typography>
+                    <Typography variant="body1" aligh="center" style={{color: "white"}}>
+                        US Micro Products
+                    </Typography>
+                    <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
+                    • Accounts Payable: Oversee the payables cycle, maintaining reports, reviewing invoices, responding to vendors, entering data into our accounting system, preparation and mail of disbursements, preparation of wire transfers, and the distribution of AP related reports including shipping, and various other AP-related tasks. 
+                    <br/>
+                    • Accounts Receivable: Including the receipt, organization and file of payments from customers, entering data into our accounting system, reconciliation of discrepancies, collections, bank runs, aging AR metrics, audit confirmations, and other AR-related tasks. 
+                    <br/>
+                    • Month-End Activities including bank reconciliations, corporate credit card program and travel expenses, and other account expenses and payables including foreign branch accounts. • Inventory Management including RMAs, reports, audits and adjustments for the warehouse staff. Other Accounting Activities including the annual processing of W9/1099 requirements. 
+
+                    </Typography>
+                    </Box>
+
+
+
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2017-2018</Typography>
+                    <Box component="div" className={classes.timeLineItem}>
+                    <Typography variant="h5" aligh="center"  className={classes.subHeading}>
+                         Staff Accountant 
+                    </Typography>
+                    <Typography variant="body1" aligh="center" style={{color: "white"}}>
+                        Parterre Garden Services Boston, MA
+                    </Typography>
+                    <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
+                    • Accounts Payable temp position: Oversee the payables cycle, maintaining reports, reviewing invoices, responding to vendors, entering data into our accounting system, preparation and mail of disbursements, preparation of wire transfers, and the distribution of AP related reports including shipping, and various other AP-related tasks. 
+                    <br/>
+                    • Accounts Receivable: Including the receipt, organization and file of payments from customers, entering data into our accounting system, reconciliation of discrepancies, collections, bank runs, aging AR metrics, audit confirmations, and other AR-related tasks. • Payroll including timesheet maintenance, PTO tracking and reports, benefit analysis and reports, and other payroll activities. 
+                    <br/>
+                    • Month-End Activities including bank reconciliations, corporate credit card program and travel expenses, and other account expenses and payables including foreign branch accounts. 
+
                     </Typography>
                     </Box>
                 </Box>
