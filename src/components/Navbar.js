@@ -28,7 +28,8 @@ import avatar from "../images/avatar.png"
 const useStyles = makeStyles( theme=> ({
     menuSliderContainer: {
         width: 250,
-        background: "#511",
+        background: "url('https://media.giphy.com/media/AOSwwqVjNZlDO/source.gif')",
+        backgroundSize: "cover",
         height: "100%"
     },
     avatar: {
@@ -63,12 +64,12 @@ const menuItems = [
         ListPath: "/portfolio"
 
     },
-    {
-        listIcon:<ContactMail/>,
-        listTest: "Contacts",
-        ListPath: "/contacts"
+    // {
+    //     listIcon:<ContactMail/>,
+    //     listTest: "Contacts",
+    //     ListPath: "/contacts"
 
-    },
+    // },
 ]
 
 const Navbar = () => {

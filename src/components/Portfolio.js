@@ -27,7 +27,7 @@ import project5 from "../images/CoronaTracker.png"
 const useStyles = makeStyles({
     mainContainer: {
         height: "100%",
-        background: "url('https://media.giphy.com/media/rwB9IjV1zYcRa/source.gif')",
+        background: "url('https://media.giphy.com/media/8qCZArL3jQnUmJw0th/source.gif')",
         backgroundSize: "cover",
      
     },

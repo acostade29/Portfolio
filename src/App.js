@@ -15,7 +15,7 @@ function App() {
       <Route exact path="/" component={Home}/> 
       <Route path="/resume" component={Resume} /> 
       <Route path="/Portfolio" component={Portfolio} /> 
-      <Route path="/Contacts" component={Contacts} /> 
+
   </>
   );
 }
