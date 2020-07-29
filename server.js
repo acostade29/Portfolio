@@ -1,21 +1,16 @@
 const express = require('express');
-const app = express();
-const port = process.env.PORT || 3001;
+const favicon = require('express-favicon');
 const path = require('path');
-const favicon = require('serve-favicon');
-
-require('dotenv').config();
-
-app.use(express.json());
-
-// Configure both serve-favicon & static middlewares
-// to serve from the production 'build' folder
-app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
+const port = process.env.PORT || 8080;
+const app = express();
+app.use(favicon(__dirname + '/build/favicon.ico'));
+// the __dirname is the current directory from where the script is running
+app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, 'build')));
-app.get('/*', function(req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
-  });
-
-app.listen(port, ()=> {
-    console.log(`Express is listening on port ${port}.`)
+app.get('/ping', function (req, res) {
+ return res.send('pong');
 });
+app.get('/*', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+app.listen(port);
