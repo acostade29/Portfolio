@@ -26,7 +26,10 @@ import project5 from "../images/CoronaTracker.png"
 
 const useStyles = makeStyles({
     mainContainer: {
-        height: "100%"
+        height: "100%",
+        background: "url('https://media.giphy.com/media/rwB9IjV1zYcRa/source.gif')",
+        backgroundSize: "cover",
+     
     },
     cardContainer: {
         maxWidth: 345,
@@ -63,14 +66,17 @@ const Portfolio = () => {
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                    
-                        <Button size="small" color="primary">
-                            Share
+                    <a rel="noopener noreferrer" href="https://github.com/acostade29/simonsays" target="_blank">
+                            <Button  size="small" color="primary">
+                            github
                         </Button>
+                        </a>
+
+                        <a rel="noopener noreferrer" href="https://acostade29.github.io/simonsays/" target="_blank">
                         <Button size="small" color="primary">
                             live
                         </Button>
-
+                        </a>
 
                     </CardActions>
                 
@@ -100,13 +106,13 @@ const Portfolio = () => {
                       </CardContent>
                       </CardActionArea>
                       <CardActions>
-                      
+                      <a rel="noopener noreferrer" href="https://github.com/acostade29/Snake-Game" target="_blank">
                           <Button size="small" color="primary">
-                              Share
+                              github
                           </Button>
-                          <Button size="small" color="primary">
-                              live
-                          </Button>
+                          </a>
+
+
   
   
                       </CardActions>
@@ -138,14 +144,17 @@ const Portfolio = () => {
                       </CardContent>
                       </CardActionArea>
                       <CardActions>
-                      
+                      <a rel="noopener noreferrer" href="https://github.com/acostade29/Dog-Walking-List-Project-" target="_blank">                   
                           <Button size="small" color="primary">
-                              Share
+                              github
                           </Button>
+                          </a>
+
+                          <a rel="noopener noreferrer" href="https://guizmo-project.herokuapp.com/users" target="_blank">                   
                           <Button size="small" color="primary">
                               live
                           </Button>
-  
+                            </a>
   
                       </CardActions>
                   
@@ -178,13 +187,16 @@ const Portfolio = () => {
                       </CardContent>
                       </CardActionArea>
                       <CardActions>
-                     
+                      <a rel="noopener noreferrer" href="https://github.com/BSacco0674/cookbook" target="_blank">                                       
                           <Button size="small" color="primary">
-                              Share
+                              github
                           </Button>
+                          </a>
+                          <a rel="noopener noreferrer" href="https://cooking-with-bam.herokuapp.com/" target="_blank">                                       
                           <Button size="small" color="primary">
                               live
                           </Button>
+                          </a>
   
   
                       </CardActions>
@@ -216,13 +228,16 @@ const Portfolio = () => {
                       </CardContent>
                       </CardActionArea>
                       <CardActions>
-                      
+                      <a rel="noopener noreferrer" href="https://github.com/acostade29/CoronaTracker" target="_blank">                                                             
                           <Button size="small" color="primary">
-                              Share
+                              github
                           </Button>
+                          </a>
+                          <a rel="noopener noreferrer" href="https://coronatrackeralfonso.herokuapp.com//" target="_blank">                                                             
                           <Button size="small" color="primary">
                               live
                           </Button>
+                          </a>
   
   
                       </CardActions>

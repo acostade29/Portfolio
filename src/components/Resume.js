@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 
 const useStyles = makeStyles(theme=> ({
     mainContainer:{
-        background: "cornflowerblue"
+        background: "url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')"
     },
     timeline: {
         position: "relative",
@@ -131,7 +131,7 @@ const Resume = () => {
                     <Typography variant="body1" aligh="center" style={{color: "white"}}>
                         General Assembly Austin,TX
                     </Typography>
-                    <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
+                    <Typography variant="Subtitle1" aligh="center" style={{color: "white"}}>
                     General Assembly’s Software Engineering Immersive (SEI) is a 12-week long training program dedicated to give students a deep dive into the world of software engineering, focusing on web development tools and best practices. Portfolios are created with the following
                     technologies: Git/Github, HTML, CSS, JavaScript, Node, MongoDB, SQL, Python. 
                     </Typography>
@@ -147,7 +147,7 @@ const Resume = () => {
                     <Typography variant="body1" aligh="center" style={{color: "white"}}>
                         Eaton Fine Art Austin, TX
                     </Typography>
-                    <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
+                    <Typography variant="Subtitle1" aligh="center" style={{color: "white"}}>
                     • Responsible for providing accounting and administrative support for accounts payable, accounts receivable, vendor processing. 
                     <br/>
                     • Process AP invoices on a weekly basis. Process AR billings per project terms. Post deposits and assist with various accounts receivable functions. Maintaining accounting records and files. Maintaining client files. Maintain client and vendor databases 
@@ -167,7 +167,7 @@ const Resume = () => {
                     <Typography variant="body1" aligh="center" style={{color: "white"}}>
                         US Micro Products
                     </Typography>
-                    <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
+                    <Typography variant="Subtitle1" aligh="center" style={{color: "white"}}>
                     • Accounts Payable: Oversee the payables cycle, maintaining reports, reviewing invoices, responding to vendors, entering data into our accounting system, preparation and mail of disbursements, preparation of wire transfers, and the distribution of AP related reports including shipping, and various other AP-related tasks. 
                     <br/>
                     • Accounts Receivable: Including the receipt, organization and file of payments from customers, entering data into our accounting system, reconciliation of discrepancies, collections, bank runs, aging AR metrics, audit confirmations, and other AR-related tasks. 
@@ -187,7 +187,7 @@ const Resume = () => {
                     <Typography variant="body1" aligh="center" style={{color: "white"}}>
                         Parterre Garden Services Boston, MA
                     </Typography>
-                    <Typography variant="Subtitle1" aligh="center" style={{color: "black"}}>
+                    <Typography variant="Subtitle1" aligh="center" style={{color: "white"}}>
                     • Accounts Payable temp position: Oversee the payables cycle, maintaining reports, reviewing invoices, responding to vendors, entering data into our accounting system, preparation and mail of disbursements, preparation of wire transfers, and the distribution of AP related reports including shipping, and various other AP-related tasks. 
                     <br/>
                     • Accounts Receivable: Including the receipt, organization and file of payments from customers, entering data into our accounting system, reconciliation of discrepancies, collections, bank runs, aging AR metrics, audit confirmations, and other AR-related tasks. • Payroll including timesheet maintenance, PTO tracking and reports, benefit analysis and reports, and other payroll activities. 
